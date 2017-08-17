@@ -1,3 +1,4 @@
+||google.ca
 ||acunetix.com
 @@||shimo.im
 ||livecoding.tv
