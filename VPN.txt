@@ -20,3 +20,6 @@ service serverSpeeder status #状态
 service serverSpeeder stats #统计
 service serverSpeeder renewLic #更新许可文件
 service serverSpeeder update #更新
+
+
+sslocal -c shadowsocks.json
