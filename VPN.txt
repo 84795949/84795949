@@ -23,3 +23,17 @@ service serverSpeeder update #更新
 
 
 sslocal -c shadowsocks.json
+
+{
+    "configs": [
+        {
+            "method": "aes-256-cfb",
+            "password": "NjdlY2YzZD",
+            "remarks": "my",
+            "server": "67.216.204.44",
+            "server_port": 443
+        }
+    ],
+    "localPort": 1080,
+    "shareOverLan": false
+}
