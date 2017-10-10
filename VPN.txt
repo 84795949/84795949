@@ -1,28 +1,37 @@
 vpn
-https://kiwivm.64clouds.com/main.php   163@com:521820973xxx
-https://bwh1.net/clientarea.php?action=productdetails&id=296288
+https://kiwivm.64clouds.com/main.php  
+https://bwh1.net/clientarea.php?action=productdetails&id=296288  163@com:521820973xxx
 104.224.148.74 :26982
 wcZTP9MsiyRi
 
+----------------------------------------------------------------------------------------------------------------------------------------
 
-
+客户端配置
 VPN sandowsocks
 Server IP 	104.224.148.74
 Server port 2333
 Password 	NzdlOWI1ZD
 Encryption 	rc4-md5
+----------------------------------------------------------------------------------------------------------------------------------------
 
+锐速相关命令
+/serverspeeder/bin/serverSpeeder.sh
+Usage: /serverspeeder/bin/serverSpeeder.sh {start | stop | reload | restart | status | stats | renewLic | update | uninstall}
 
-service serverSpeeder start #启动
-service serverSpeeder stop #停止
-service serverSpeeder reload #重新加载配置
-service serverSpeeder restart #重启
-service serverSpeeder status #状态
-service serverSpeeder stats #统计
-service serverSpeeder renewLic #更新许可文件
-service serverSpeeder update #更新
+  start           start ServerSpeeder
+  stop            stop ServerSpeeder
+  reload          reload configuration
+  restart         restart ServerSpeeder
+  status          show ServerSpeeder running status
+  stats           show realtime connection statistics
 
+  renewLic        update license file
+  update          update ServerSpeeder
+  uninstall       uninstall ServerSpeeder
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Linux客户端链接示例
 sslocal -c shadowsocks.json
 
 {
@@ -38,3 +47,18 @@ sslocal -c shadowsocks.json
     "localPort": 1080,
     "shareOverLan": false
 }
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+安装锐速：
+修改内核为锐速支持版本
+uname -r
+rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm
+rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-2.6.32-504.3.3.el6.x86_64.rpm --force
+rpm -qa | grep kernel
+reboot
+uname -r
+
+
+一键安装锐速脚本：
+ wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh && bash serverspeeder-all.sh
