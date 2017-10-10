@@ -2,15 +2,15 @@ vpn
 https://kiwivm.64clouds.com/main.php   163@com:521820973xxx
 https://bwh1.net/clientarea.php?action=productdetails&id=296288
 104.224.148.74 :26982
-HER5wHa8d3Dz
+wcZTP9MsiyRi
 
 
 
 VPN sandowsocks
-Server IP 	67.216.204.44
-Server port 443
-Password 	NjdlY2YzZD
-Encryption 	aes-256-cfb
+Server IP 	104.224.148.74
+Server port 2333
+Password 	NzdlOWI1ZD
+Encryption 	rc4-md5
 
 
 service serverSpeeder start #启动
