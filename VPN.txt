@@ -15,7 +15,7 @@ ssserver -c /home/vpn/shadowsocks.json -d stop  关闭
    "server_port":2333,
    "local_address": "127.0.0.1",
    "local_port":1080,
-   "password":"521820973xxx",
+   "password":"NzE1ZGQ2ZW",
    "timeout":600,
    "method":"rc4-md5",
    "fast_open": false
@@ -27,7 +27,7 @@ ssserver -c /home/vpn/shadowsocks.json -d stop  关闭
 VPN sandowsocks
 Server IP 	104.224.148.74
 Server port 2333
-Password 	521820973xxx
+Password 	NzE1ZGQ2ZW
 Encryption 	rc4-md5
 ----------------------------------------------------------------------------------------------------------------------------------------
 
