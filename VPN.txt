@@ -6,11 +6,29 @@ https://bwh1.net/clientarea.php?action=productdetails&id=296288  163@com:5218209
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
+shadowsocks服务端相关命令
+ssserver -c /home/vpn/shadowsocks.json -d start 启动
+ssserver -c /home/vpn/shadowsocks.json -d stop  关闭
+日志文件 /var/log/shadowsocks.log
+/home/vpn/shadowsocks.json内容
+{
+   "server":"104.224.148.74",
+   "server_port":2333,
+   "local_address": "127.0.0.1",
+   "local_port":1080,
+   "password":"521820973xxx",
+   "timeout":600,
+   "method":"rc4-md5",
+   "fast_open": false
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 客户端配置
 VPN sandowsocks
 Server IP 	104.224.148.74
 Server port 2333
-Password 	NzdlOWI1ZD
+Password 	521820973xxx
 Encryption 	rc4-md5
 ----------------------------------------------------------------------------------------------------------------------------------------
 
