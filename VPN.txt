@@ -2,7 +2,7 @@ vpn
 https://kiwivm.64clouds.com/main.php  
 https://bwh1.net/clientarea.php?action=productdetails&id=296288  163@com:521820973xxx
 104.224.148.74 :26982
-Bc0agcSiuRyZ
+B8ZoeiYWUeOR
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 shadowsocks服务端相关命令
@@ -27,7 +27,7 @@ ssserver -c /home/vpn/shadowsocks.json -d stop  关闭
 VPN sandowsocks
 Server IP 	104.224.148.74
 Server port 2333
-Password 	NzE1ZGQ2ZW
+Password 	NDY0OGM3OT
 Encryption 	rc4-md5
 ----------------------------------------------------------------------------------------------------------------------------------------
 
