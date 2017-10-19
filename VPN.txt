@@ -27,7 +27,7 @@ ssserver -c /home/vpn/shadowsocks.json -d stop  关闭
 VPN sandowsocks
 Server IP 	104.224.148.74
 Server port 2333
-Password 	NDY0OGM3OT
+Password 	MGFkMGZjNz
 Encryption 	rc4-md5
 ----------------------------------------------------------------------------------------------------------------------------------------
 
